@@ -1,4 +1,4 @@
-# Delete the password protector from the C: drive
+# Delete the password protector from the C: drive, or specify the letter for the desired drive.
 manage-bde -protectors -delete -type password C:
 
 # Add a TPM protector to the C: drive
